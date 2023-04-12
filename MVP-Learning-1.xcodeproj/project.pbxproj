@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		158DAC1E29E6CB770075B354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC1D29E6CB770075B354 /* AppDelegate.swift */; };
 		158DAC2029E6CB770075B354 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC1F29E6CB770075B354 /* SceneDelegate.swift */; };
-		158DAC2229E6CB770075B354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC2129E6CB770075B354 /* ViewController.swift */; };
+		158DAC2229E6CB770075B354 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC2129E6CB770075B354 /* MainViewController.swift */; };
 		158DAC2529E6CB770075B354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158DAC2329E6CB770075B354 /* Main.storyboard */; };
 		158DAC2729E6CB780075B354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 158DAC2629E6CB780075B354 /* Assets.xcassets */; };
 		158DAC2A29E6CB780075B354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 158DAC2829E6CB780075B354 /* LaunchScreen.storyboard */; };
 		158DAC3529E6CB780075B354 /* MVP_Learning_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC3429E6CB780075B354 /* MVP_Learning_1Tests.swift */; };
 		158DAC3F29E6CB780075B354 /* MVP_Learning_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC3E29E6CB780075B354 /* MVP_Learning_1UITests.swift */; };
 		158DAC4129E6CB780075B354 /* MVP_Learning_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC4029E6CB780075B354 /* MVP_Learning_1UITestsLaunchTests.swift */; };
+		158DAC5229E6CBFD0075B354 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC5129E6CBFD0075B354 /* People.swift */; };
+		158DAC5429E6CC2E0075B354 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC5329E6CC2E0075B354 /* Presenter.swift */; };
+		158DAC5629E6CDA20075B354 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158DAC5529E6CDA20075B354 /* MainView.xib */; };
+		158DAC5829E6D2550075B354 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC5729E6D2550075B354 /* Builder.swift */; };
+		158DAC5A29E6D7560075B354 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158DAC5929E6D7560075B354 /* MainTableViewCell.swift */; };
+		158DAC5C29E6D8F30075B354 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158DAC5B29E6D8F30075B354 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		158DAC1A29E6CB770075B354 /* MVP-Learning-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP-Learning-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		158DAC1D29E6CB770075B354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		158DAC1F29E6CB770075B354 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		158DAC2129E6CB770075B354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		158DAC2129E6CB770075B354 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		158DAC2429E6CB770075B354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		158DAC2629E6CB780075B354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		158DAC2929E6CB780075B354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		158DAC3A29E6CB780075B354 /* MVP-Learning-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-Learning-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		158DAC3E29E6CB780075B354 /* MVP_Learning_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_Learning_1UITests.swift; sourceTree = "<group>"; };
 		158DAC4029E6CB780075B354 /* MVP_Learning_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_Learning_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		158DAC5129E6CBFD0075B354 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		158DAC5329E6CC2E0075B354 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		158DAC5529E6CDA20075B354 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		158DAC5729E6D2550075B354 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		158DAC5929E6D7560075B354 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		158DAC5B29E6D8F30075B354 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +113,7 @@
 			children = (
 				158DAC1D29E6CB770075B354 /* AppDelegate.swift */,
 				158DAC1F29E6CB770075B354 /* SceneDelegate.swift */,
-				158DAC2129E6CB770075B354 /* ViewController.swift */,
-				158DAC2329E6CB770075B354 /* Main.storyboard */,
+				158DAC4D29E6CB920075B354 /* MainModule */,
 				158DAC2629E6CB780075B354 /* Assets.xcassets */,
 				158DAC2829E6CB780075B354 /* LaunchScreen.storyboard */,
 				158DAC2B29E6CB780075B354 /* Info.plist */,
@@ -125,6 +136,45 @@
 				158DAC4029E6CB780075B354 /* MVP_Learning_1UITestsLaunchTests.swift */,
 			);
 			path = "MVP-Learning-1UITests";
+			sourceTree = "<group>";
+		};
+		158DAC4D29E6CB920075B354 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				158DAC5729E6D2550075B354 /* Builder.swift */,
+				158DAC4F29E6CBAD0075B354 /* Model */,
+				158DAC4E29E6CBA20075B354 /* View */,
+				158DAC5029E6CBB50075B354 /* Presenter */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		158DAC4E29E6CBA20075B354 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				158DAC2129E6CB770075B354 /* MainViewController.swift */,
+				158DAC5929E6D7560075B354 /* MainTableViewCell.swift */,
+				158DAC5B29E6D8F30075B354 /* View.xib */,
+				158DAC5529E6CDA20075B354 /* MainView.xib */,
+				158DAC2329E6CB770075B354 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		158DAC4F29E6CBAD0075B354 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				158DAC5129E6CBFD0075B354 /* People.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		158DAC5029E6CBB50075B354 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				158DAC5329E6CC2E0075B354 /* Presenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				158DAC2A29E6CB780075B354 /* LaunchScreen.storyboard in Resources */,
+				158DAC5C29E6D8F30075B354 /* View.xib in Resources */,
+				158DAC5629E6CDA20075B354 /* MainView.xib in Resources */,
 				158DAC2729E6CB780075B354 /* Assets.xcassets in Resources */,
 				158DAC2529E6CB770075B354 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				158DAC2229E6CB770075B354 /* ViewController.swift in Sources */,
+				158DAC5229E6CBFD0075B354 /* People.swift in Sources */,
+				158DAC2229E6CB770075B354 /* MainViewController.swift in Sources */,
 				158DAC1E29E6CB770075B354 /* AppDelegate.swift in Sources */,
+				158DAC5A29E6D7560075B354 /* MainTableViewCell.swift in Sources */,
 				158DAC2029E6CB770075B354 /* SceneDelegate.swift in Sources */,
+				158DAC5429E6CC2E0075B354 /* Presenter.swift in Sources */,
+				158DAC5829E6D2550075B354 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
