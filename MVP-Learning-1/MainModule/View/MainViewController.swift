@@ -5,6 +5,10 @@
 //  Created by Bakhtovar Akhmedov on 12.04.2023.
 //
 
+
+//MVC
+//MVP
+
 import UIKit
 
 class MainViewController: UIViewController, MainViewProtocol{
